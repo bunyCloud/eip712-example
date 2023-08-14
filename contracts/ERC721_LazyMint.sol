@@ -25,7 +25,7 @@ contract ERC721_LazyMint is ERC721URIStorage, EIP712{
     }
 
     constructor() 
-        ERC721("LazyMint", "lmNFT") 
+        ERC721("Daily Telos Ticket", "DTNFT") 
         EIP712(SIGNING_DOMAIN,SIGNATURE_VERSION)
     {
         NFT_SIGNER = msg.sender;
